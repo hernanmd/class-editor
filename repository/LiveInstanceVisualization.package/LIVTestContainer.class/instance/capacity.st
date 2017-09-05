@@ -1,3 +1,3 @@
 accessing
 capacity
-	^ capacity
+	^ items size
