@@ -9,7 +9,8 @@
 		"name",
 		"classifier",
 		"slots",
-		"instanceHash"
+		"instanceHash",
+		"style"
 	],
 	"name" : "LIVInstanceSpecification",
 	"type" : "normal"

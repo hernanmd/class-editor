@@ -14,14 +14,14 @@ colorModifications: aDictionary in: aView
 					subFigs
 						detect: [ :each | each modelElement = key ]
 						ifFound: [ :each | 
-							each sharedStyle fontColor: Color green muchDarker.
+							each style fontColor: Color green muchDarker.
 							each update ] ].
 			(dict at: #modified)
 				keysAndValuesDo: [ :key :value | 
 					subFigs
 						detect: [ :each | each modelElement = key ]
 						ifFound: [ :each | 
-							each sharedStyle fontColor: Color blue.
+							each style fontColor: Color blue.
 							each update ].
 					aView edges
 						detect: [ :each | 
@@ -31,7 +31,7 @@ colorModifications: aDictionary in: aView
 							each model ownedElements
 								detect: [ :lbl | lbl modelElement = key ]
 								ifFound: [ :lbl | 
-									lbl sharedStyle fontColor: Color blue.
+									lbl style fontColor: Color blue.
 									lbl update ].
 							each model localStyle strokeColor: Color blue.
 							each model update ] ] ]

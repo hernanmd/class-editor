@@ -2,6 +2,7 @@ converting
 asShape
 	| el lbl comp compLbl |
 	el := OPUmlCompartmentableShape new.
+"	el localStyle: style."
 	el modelElement: self.
 	lbl := OPUmlTypedElementLabel new.
 	lbl

@@ -17,4 +17,5 @@ view: aView class: aClassDescription
 	b layout horizontalDominanceTree
 		verticalGap: 40;
 		horizontalGap: 70.
+	b view @ RTZoomableView.
 	b build

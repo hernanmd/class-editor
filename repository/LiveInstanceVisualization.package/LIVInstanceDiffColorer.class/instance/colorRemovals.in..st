@@ -7,5 +7,5 @@ colorRemovals: aCollection in: aView
 		do: [ :el | 
 			| fig |
 			fig := el model.
-			fig sharedStyle fillColor: Color red muchLighter.
+			fig style fillColor: Color red muchLighter.
 			fig update ]
